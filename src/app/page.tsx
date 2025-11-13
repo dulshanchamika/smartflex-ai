@@ -1,6 +1,10 @@
+import { SignIn } from "@clerk/nextjs";
+
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div>
+      <SignIn />
+    </div>
   )
 }
 
